@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shadows+Into+Light&display=swap');
+
+
 * {
     margin: 0;
     top: 0;
@@ -19,6 +22,8 @@ h1 {
     color: #fff;
     margin: 20px 0;
     cursor: pointer;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
 }
 
 
@@ -63,6 +68,21 @@ h1 {
     border-bottom: 1px solid #fff;
 }
 
+.item.o {
+    color: rgb(255, 75, 4);
+    transition: none;
+}
+
+.item.x {
+    color: #02f3b7e3;
+}
+
+
+.winner {
+    background-color: #6cc261;
+}
+
+
 .info {
     width: 500px;
     height: 150px;
@@ -76,6 +96,7 @@ h1 {
 .infoItem {
     margin-top: 25px;
     width: 50%;
+    height: 80px;
     background-color: #fff;
     border-radius: 5px;
     margin-right: 2px;
@@ -111,8 +132,31 @@ h1 {
 }
 
 
+footer {
+    margin-top: 25px;
+    color: #fff7f7;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+a:hover {
+    transition: 0.5s ease;
+    color: #af02f3e3;
+}
+
+
+
 @media (max-width: 850px) {
 
+    h1 {
+        margin-top: -3px;
+    }
+    
     .info {
         width: 300px;
         height: 120px;
@@ -127,5 +171,15 @@ h1 {
         text-align: center;
         color: #454a4b;
         font-size: 15px;
+    }
+
+    .infoItem {
+        height: 50px;
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .infoTitulo {
+        margin-top: 5px;
     }
 }
