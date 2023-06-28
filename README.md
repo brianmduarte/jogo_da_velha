@@ -8,4 +8,4 @@ O objetivo deste projeto foi replicar o famoso #Jogo da Velha utilizando os recu
 - CSS;
 - Javascript.
 
-🔗 Link do Deploy: <a href="" target="_blank"> Jogo da Velha </a>
+🔗 Link do Deploy: <a href="https://brianmduarte.github.io/jogo_da_velha/" target="_blank"> Jogo da Velha </a>
